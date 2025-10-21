@@ -1,6 +1,3 @@
-from app import create_app
+from app import create_app as create_flask_app
 
-app = create_app()
-
-if __name__ == "__main__":
-    app.run(debug=True, port=3000)
+app = create_flask_app()
